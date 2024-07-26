@@ -270,6 +270,10 @@ a:hover{
     font-weight: 700;
     margin-bottom: 50px;
 }
+#calculate-chart{
+    border: 0.5px solid rgba(194, 194, 194, 0.795);
+    border-collapse: collapse;
+}
 
 #calculate-chart td {
     border: 0.5px solid rgba(194, 194, 194, 0.795);
@@ -461,6 +465,11 @@ a:hover{
 
 
 
+
+
+
+
+
 /* Responsive for Phone */
 
 @media screen and (max-width:475px) {
@@ -543,7 +552,7 @@ a:hover{
 }
 .bnr-description{
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 400;
     color: aliceblue;
     opacity: 70%;
     margin-bottom: 30px;
@@ -554,7 +563,7 @@ a:hover{
     margin-bottom: 50px;
 }
 .bnr-btn a{
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 600;
     text-decoration: none;
     color: white;
@@ -575,7 +584,7 @@ a:hover{
 .bnr-card{
     width: 140px;
     height: 60px;
-    background-color:aqua;
+    background-color:rgba(82, 79, 79, 0.897);
     color: white;
     border-radius: 16px;
     padding: 10px 20px;
@@ -670,14 +679,15 @@ a:hover{
 }
 .habit-bnr-title{
     color: white;
-    font-size: 45px;
-    line-height: 60px;
-    font-weight: 800;
+    font-size: 2.8rem;
+    line-height: 50px;
+    font-weight: 700;
     margin-bottom: 20px;
 }
 .habit-bnr-description{
     color: rgb(168, 168, 168);
-    font-size: 20px;
+    font-size: 18px;
+    font-weight: 350;
     line-height: 30px;
     margin-bottom: 40px;
 }
@@ -689,7 +699,7 @@ a:hover{
     font-size: 1.56rem;
     border: 1px solid white;
     border-radius: 40px;
-    padding: 15px 7.5rem;
+    padding: 15px 5.5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -704,6 +714,110 @@ a:hover{
     height: 30vh;
     margin: 40px;
 }
+
+
+
+/* BMI Section */
+
+.bmi-section{
+    margin-bottom: 100px;
+}
+.section-text{
+    display: flex;
+    flex-direction: column;
+    margin: 30px 20px;
+    padding: 0;
+}
+.section-title{
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 900;
+    
+}
+.section-description{
+    color: rgb(168, 168, 168);
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin: 20px 0;
+    line-height: 30px;
+}
+
+.bmi-calculate{
+    background-color: rgba(58, 55, 55, 0.897);
+    padding: 30px 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.bmi-chart h2{
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+#calculate-chart{
+    border: 0.5px solid rgba(194, 194, 194, 0.795);
+    border-collapse: collapse;
+    margin-bottom: 40px;
+}
+
+#calculate-chart td {
+    border: 0.5px solid rgba(194, 194, 194, 0.795);
+    color:  rgb(168, 168, 168);
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding: 18px 25px;
+}
+#calculate-chart thead td{
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+.bmi-calcucator{
+    max-width: 100vw;
+    max-height: fit-content;
+
+}
+.calculator-title{
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+
+}
+.calculator-description{
+    color: rgb(168, 168, 168);
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+.calculator-inputs{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+    margin-bottom: 40px;
+}
+.calculator-inputs input{
+    background-color: rgba(102, 101, 101, 0.39);
+    padding: 20px 15px;
+    border-radius: 12px;
+    color: white;
+    font-size: .8rem;
+    font-weight: 500;
+    border-style: none;
+}
+.calculate-btn{
+    display:inline-block;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: white;
+    border-radius: 30px;
+    padding: 20px 90px;
+    background-color: rgba(245, 87, 38, 0.89);
+    margin-bottom: 20px;
+}
+
+
+
 /* Team Trainer */
     
 
