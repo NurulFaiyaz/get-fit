@@ -563,13 +563,15 @@ a:hover{
     margin-bottom: 50px;
 }
 .bnr-btn a{
-    font-size: 16px;
+    width: 35%;
+    font-size: 100%;
     font-weight: 600;
     text-decoration: none;
+    text-align: center;
     color: white;
     border: 1px solid white;
     border-radius: 40px;
-    padding: 20px 2rem;
+    padding: 5%;
     margin-bottom: 0px;
 }
 .bnr-display{
@@ -582,12 +584,12 @@ a:hover{
 
 }
 .bnr-card{
-    width: 140px;
-    height: 60px;
+    width: 100%;
+    /* height: 60px; */
     background-color:rgba(82, 79, 79, 0.897);
     color: white;
     border-radius: 16px;
-    padding: 10px 20px;
+    padding: 10% 15%;
     
 }
 /* .bnr-card{
@@ -671,7 +673,7 @@ a:hover{
     
 }
 .habit-brn div{
-    /* margin: 40px; */
+    margin: 10%;
 }
 .habit-bnr-content{
     width: fit-content;
@@ -699,7 +701,7 @@ a:hover{
     font-size: 1.56rem;
     border: 1px solid white;
     border-radius: 40px;
-    padding: 15px 5.5rem;
+    padding: 15px 10%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -710,7 +712,7 @@ a:hover{
     border-radius: 30px;
     background-size: cover;
     background-position: 40%;
-    width: 80%;
+    width: auto;
     height: 30vh;
     margin: 40px;
 }
@@ -759,6 +761,7 @@ a:hover{
     border: 0.5px solid rgba(194, 194, 194, 0.795);
     border-collapse: collapse;
     margin-bottom: 40px;
+    width: 100%;
 }
 
 #calculate-chart td {
@@ -798,10 +801,11 @@ a:hover{
 }
 .calculator-inputs input{
     background-color: rgba(102, 101, 101, 0.39);
-    padding: 20px 15px;
+    padding: 10% 5%;
     border-radius: 12px;
     color: white;
-    font-size: .8rem;
+    font-size: 100%;
+    width: 90%;
     font-weight: 500;
     border-style: none;
 }
