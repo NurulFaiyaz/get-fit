@@ -167,7 +167,8 @@ a:hover{
     padding: 20px 15px;
 }
 .habit-card>img{
-    margin-bottom: 20px;    
+    margin-bottom: 20px;
+    border-radius: 50%;  
 }
 .habit-card h3{
     color: white;
@@ -645,7 +646,8 @@ a:hover{
    
 }
 .habit-card>img{
-    margin-bottom: 20px;    
+    margin-bottom: 20px;
+    border-radius: 50%;
 }
 .habit-card h3{
     color: white;
@@ -808,6 +810,7 @@ a:hover{
     width: 90%;
     font-weight: 500;
     border-style: none;
+    ::border-color: none;
 }
 .calculate-btn{
     display:inline-block;
