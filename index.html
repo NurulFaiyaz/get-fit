@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Get-Fit</title>
     <link rel="stylesheet" href="styles/style.css">
+    <script src="https://kit.fontawesome.com/6e2fd9ebc0.js" crossorigin="anonymous"></script>
 </head>
 <body id="body">
     <header id="head">
@@ -14,6 +15,8 @@
                 <h2>GetFit</h2>
             </div>
             <div class="nav-menu flex">
+                
+                <i class="fa-solid fa-bars" id="menu-icon"></i>
                <ul>
                 <a href="">Home</a>
                 <a href="">Service</a>
@@ -33,13 +36,23 @@
             </div>
 
             <div class="bnr-display">
-                <div class="bnr-card">
-                    <h2>500+</h2>
-                    <h4>Free Workout Video</h4>
+                <div class="bnr-video">
+                    <div class="bnr-card1">
+                        <h2>500+</h2>
+                        <h4>Free Workout Video</h4>
+                    </div>
                 </div>
-                <div class="bnr-card ">
-                    <h2>300+</h2>
-                    <h4>Video Tutorial</h4>
+
+                <div class="tuitorial">
+                    <div class="bnr-card2 flex circle">
+                        <div id="circle">
+                        </div>
+
+                       <div>
+                        <h2>300+</h2>
+                        <h4>Video Tutorial</h4>
+                       </div>
+                    </div>
                 </div>
 
             </div>
@@ -90,6 +103,44 @@
                 
             </div>
         </section>
+
+        <!-- Training & Exercise Section -->
+
+        <section class="te-section">
+            <div class="te-content">
+                <h2 class="te-title"> Trainings and Exercises</h2>
+                <h4 class="te-description">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</h4>
+            </div>
+
+            <div class="te-album">
+                <div class="te-img1">
+                    <div class="bg1">
+                        <h5>Glycanage Test</h5>
+                    </div>
+                    <div class="bg2">
+                        <h5> Push up</h5>
+                    </div>
+                    <div class="bg3">
+                        <h5>High Jump</h5>
+                    </div>
+                </div>
+                <div class="te-img2">
+                    <div class="bg4">
+                        <h5>Free Style </h5>
+                    </div>
+                    <div class="bg5">
+                        <h5> Sit Ups</h5>
+                    </div>
+                    <div class="bg6">
+                        <h5> Knee Chest Stretch</h5>
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+
+
         <section class="bmi-section">
             <div class="section-text">
                 <h2 class="section-title">BMI Calculator</h2>
@@ -128,8 +179,14 @@
                         <input type="text" placeholder="Height/cm">
                         <input type="text" placeholder="Weight/kg">
                         <input type="text" placeholder="Age">
-                        <input type="text" placeholder="Sex">
-                        <input type="text" placeholder="Select an activity factor">
+                        <!-- <input type="text" placeholder="Sex"> -->
+                        <select name="Sex" id="sex" placeholder="Sex" >
+                            <option value="">Sex</option>
+                            <option value="Male">Male</option>
+                            <option value="Female">Female</option>
+                            <option value="Others">Others</option>
+                        </select>
+                        <input id="big-input" type="text" placeholder="Select an activity factor">
                     </div>
                     <a class="calculate-btn" href="">Caculate</a>
                 </div>
