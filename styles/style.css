@@ -291,6 +291,10 @@ a:hover{
 
 /* Training & Exercise section */
 
+.mobile{
+    display: none;
+}
+
 .te-section{
     padding: 0 200px;
     margin-bottom: 100px;
@@ -956,6 +960,72 @@ a:hover{
     margin: 40px;
 }
 
+
+/* Training & Exercise section */
+
+.pc{
+    display: none;
+}
+.mobile{
+    display: block;
+}
+
+.te-section{
+    padding: 0 20px;
+    margin-bottom: 50px;
+}
+
+.te-content{
+    width: 100%;
+    margin-bottom: 50px;
+}
+.te-title{
+    font-size: 3em;
+}
+.te-description{
+    font-size: 1em;
+}
+
+.te-img1{
+    display: flex; 
+}
+
+.te-img1 div{
+    background-size: cover;
+    background-position: center;
+}
+
+.bg1{
+    width: 50%;
+}
+.bg3{
+    width: 50%;
+}
+
+.te-album h5{
+    font-size: 1em;
+}
+
+.bg2{
+    width: 100%;
+}
+
+.bg4{
+    width: 60%;
+    background-position: center;
+}
+
+.bg6{
+    width: 40%;
+    background-position: 40% ;
+}
+.te-img3{
+    display: flex;
+}
+.te-img3 div{
+    background-size: cover;
+    /* background-position: center; */
+}
 
 
 /* BMI Section */
